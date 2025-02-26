@@ -164,8 +164,8 @@ i{
 
 .contact .social-links a {
     text-decoration: none;
-    font-size: 18px;
-    padding: 10px 20px;
+    font-size: 16px; /* Smaller font size for mobile */
+    padding: 8px 10px;
     border-radius: 30px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -179,3 +179,16 @@ i{
     margin-right: 10px;
 }
 
+@media (max-width: 767px) {
+    .contact .social-links .col-6 {
+        flex: 0 0 48%;
+        max-width: 48%;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact .social-links .col-md-3 {
+        flex: 0 0 24%;
+        max-width: 24%;
+    }
+}
