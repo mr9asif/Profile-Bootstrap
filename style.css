@@ -207,3 +207,48 @@ i{
     color: #0a0808;
     font-size: 14px;
 }
+
+/* Custom Button Styles */
+.btn-hire, .btn-resume {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-hire {
+    background-color: #007bff; /* LinkedIn blue */
+    margin-right: 10px; /* Adds space between buttons */
+}
+
+.btn-resume {
+    background-color: #28a745; /* Green color for resume */
+}
+
+.btn-hire:hover, .btn-resume:hover {
+    background-color: #0056b3; /* Darker blue for Hire Me button on hover */
+    color: #8c8c8f; 
+}
+
+.btn-resume:hover {
+    background-color: #218838; /* Darker green for Resume button on hover */
+}
+
+/* Button Icons */
+.btn-hire i, .btn-resume i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+/* Mobile View Adjustment */
+@media (max-width: 768px) {
+    .btn-hire, .btn-resume {
+        width: 100%;
+        margin-bottom: 10px; /* Adds space between buttons on mobile */
+    }
+}
