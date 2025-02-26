@@ -192,3 +192,18 @@ i{
         max-width: 24%;
     }
 }
+
+/* Mobile view - Banner Margin */
+@media (max-width: 767px) {
+    .banner {
+        margin-top: 80px;  /* Adjust this value as needed */
+    }
+}
+
+
+
+.footer {
+    background-color: #f8f9fa;
+    color: #0a0808;
+    font-size: 14px;
+}
