@@ -7,6 +7,15 @@
 .navbar-brand:hover{
     color: #000;
 }
+/* Make the Navbar Toggler (Menu Icon) Black */
+.navbar-toggler {
+    border-color: black !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Makes it black */
+}
+
 
 .navbar-nav .nav-link {
     font-size: 1.2rem;
