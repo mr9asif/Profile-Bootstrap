@@ -107,6 +107,9 @@
 
 .skill-card:hover {
     transform: translateY(-5px);
+    background-color: #94b0da;
+    color: #fff;
+    cursor: pointer;
 }
 
 .skill-icon {
@@ -135,3 +138,17 @@ i{
     margin-bottom: 10px;
 }
 
+.project-card {
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
