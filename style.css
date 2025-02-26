@@ -1,0 +1,75 @@
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+      color: #0d6efd;
+    
+}
+.navbar-brand:hover{
+    color: #000;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+    color: #000;
+    font-weight: 700;
+}
+/* Active Link Color */
+.navbar-nav .nav-link.active {
+    color: #0d6efd !important; /* Black color for active link */
+    font-weight: bold;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #0d6efd !important;
+}
+#nav-pr{
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 2px;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: #0d6efd;
+}
+
+.nav-b{
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+/* Banner Section */
+.banner {
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.banner-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner-title span {
+    color: #0d6efd; /* Bootstrap primary color */
+}
+
+.banner-text {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #0d6efd;
+}
